@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Login Form"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/txtfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="EMAIL ACCOUNT"
+       android:layout_marginTop="50dp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/txtlname"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Lname" />-->
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnlogn"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginLeft="40dp"
+        android:onClick="login"/>
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:text="register"
+      android:layout_marginLeft="200dp"
+        android:layout_marginTop="-50dp"
+        android:onClick="register"/>
+
+
+</LinearLayout>
